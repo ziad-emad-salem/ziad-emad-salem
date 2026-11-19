@@ -10,7 +10,7 @@ STEM High School Senior (6th of October, Egypt) · ACPC Top 31 National Finalist
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-0B1220?style=for-the-badge)](https://portfolio-2kkf.vercel.app/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--7460--1592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-7460-1592)
-[![Hackatime](https://img.shields.io/badge/Hackatime-329h+_Logged-EC3750?style=for-the-badge&logo=hackclub&logoColor=white)](https://hackatime.hackclub.com/@MIZOCR7)
+[![Hackatime](https://img.shields.io/badge/Hackatime-329h%2038m-EC3750?style=for-the-badge&logo=hackclub&logoColor=white)](https://hackatime.hackclub.com/@MIZOCR7)
 
 </div>
 
@@ -18,7 +18,7 @@ STEM High School Senior (6th of October, Egypt) · ACPC Top 31 National Finalist
 
 ### Overview
 
-I build systems that bridge **machine learning, physical hardware, and algorithmic problem solving**—from plant bio-signal and vision pipelines to wireless inspection rovers, real-time AI assistants, and standalone game engines.
+I build systems that bridge **machine learning, physical hardware, and algorithmic problem solving**—from plant bio-signal and vision pipelines to wireless inspection rovers, real-time AI systems, and standalone game engines.
 
 - **AI, Vision & Bio-Signals:** Deep learning models (1D/2D CNNs), real-time object detection (`RF-DETR`, `SuperVision`, `OpenCV`, `MediaPipe`), and plant electrophysiology / sensor pipelines.
 - **Robotics & Embedded Systems:** `ESP32` / `ESP32-CAM`, `Arduino`, `Raspberry Pi`, motor control, multi-sensor telemetry, power distribution, and wireless web interfaces.
@@ -37,11 +37,32 @@ I build systems that bridge **machine learning, physical hardware, and algorithm
 
 ---
 
-### Engineering Telemetry ([Hackatime](https://hackatime.hackclub.com/@MIZOCR7))
+### Hackatime Telemetry (`329h 38m` Total Logged)
+
+- **Top Language:** `Python` · **Top Editor:** `VS Code` · **Top OS:** `Windows` · **Category:** `Coding`
+
+| Tracked Project | Logged Time | Category |
+| :--- | :---: | :--- |
+| **Pokemon Game** | `35h 32m` | Game Dev |
+| **Pairate Game** | `24h 27m` | Game Dev |
+| **Pydew Valley** | `23h 04m` | Game Dev |
+| **ATHENA** | `21h 20m` | AI / Software |
+| **Ninja Game** | `20h 21m` | Game Dev |
+| **Samurai Game** | `18h 11m` | Game Dev |
+| **Dark Night** | `17h 46m` | Game Dev |
+| **Shooter Game** | `15h 16m` | Game Dev |
+| **Jarvis** | `14h 00m` | AI / Assistant |
+| **Monkey Defeater** | `08h 27m` | Game Dev |
+
+---
+
+### Stack
 
 ```text
-Logged Coding Time   329h 38m+ tracked via Hackatime (@MIZOCR7)
-Primary Language     Python · C++ · C / Arduino · JS / HTML / CSS
-Top Tracked Builds   Pokemon Game (35h+) · Pairate Game (24h+) · Pydew Valley (23h+)
-                     ATHENA AI (21h+) · Ninja Game (20h+) · The Dark Night (17h+) · Jarvis (14h)
-Environment          VS Code · Windows / Linux · Git & GitHub
+Languages      Python (3.12) · C++ · C / Arduino · HTML / CSS / JS · Markdown
+AI & Vision    PyTorch · Scikit-Learn · OpenCV · MediaPipe · RF-DETR · SuperVision
+Data & Viz     NumPy · Pandas · Matplotlib · Seaborn
+Backend & AI   FastAPI · LangChain · n8n · LiveKit Cloud · OpenRouter API
+Hardware       ESP32 / ESP32-CAM · Arduino Uno · Raspberry Pi · Sensors & Motor Drivers
+Algorithms     Fenwick Trees · Sparse Tables · Prefix Sums · Graphs · Trees · DP
+Desktop & Env  Pygame · Tkinter · Linux · Windows · Git & GitHub
