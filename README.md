@@ -18,7 +18,7 @@ STEM High School Senior (6th of October, Egypt) · ACPC Top 31 National Finalist
 
 ### Overview
 
-I build systems that bridge **machine learning, physical hardware, and algorithmic problem solving**—from plant bio-signal and vision pipelines to wireless inspection rovers, real-time AI assistants, and standalone game engines.
+I build systems that bridge **machine learning, physical hardware, and algorithmic problem solving**—from plant bio-signal and vision pipelines to wireless inspection rovers, real-time AI systems, and standalone game engines.
 
 - **AI, Vision & Bio-Signals:** Deep learning models (1D/2D CNNs), real-time object detection (`RF-DETR`, `SuperVision`, `OpenCV`, `MediaPipe`), and plant electrophysiology / sensor pipelines.
 - **Robotics & Embedded Systems:** `ESP32` / `ESP32-CAM`, `Arduino`, `Raspberry Pi`, motor control, multi-sensor telemetry, power distribution, and wireless web interfaces.
@@ -37,12 +37,20 @@ I build systems that bridge **machine learning, physical hardware, and algorithm
 
 ---
 
-### WakaTime & Coding Showcase
+### Live Coding & Engineering Activity
 
 <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
+### Stack
+
 ```text
-⏱  Total Logged Time   329h 38m
-🐍 Top Language        Python
-💻 Top Editor          VS Code
-🪟 Top OS              Windows
-⚡ Primary Category    Coding
+Languages      Python (3.12) · C++ · C / Arduino · HTML / CSS / JS · Markdown
+AI & Vision    PyTorch · Scikit-Learn · OpenCV · MediaPipe · RF-DETR · SuperVision
+Data & Viz     NumPy · Pandas · Matplotlib · Seaborn
+Backend & AI   FastAPI · LangChain · n8n · LiveKit Cloud · OpenRouter API
+Hardware       ESP32 / ESP32-CAM · Arduino Uno · Raspberry Pi · Sensors & Motor Drivers
+Algorithms     Fenwick Trees · Sparse Tables · Prefix Sums · Graphs · Trees · DP
+Desktop & Env  Pygame · Tkinter · Linux · Windows · Git & GitHub
