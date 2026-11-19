@@ -1,191 +1,49 @@
 <div align="center">
 
-<img src="./assets/banner.gif" alt="Ziad: pixel-art scene of a rover scanning a stressed plant" width="100%" />
+<img src="./banner.gif" alt="Ziad Emad Salem Banner" width="100%" />
 
-```text
- ███████╗██╗ █████╗ ██████╗
- ╚══███╔╝██║██╔══██╗██╔══██╗     Ziad Emad Salem
-   ███╔╝ ██║███████║██║  ██║     ──────────────────────────────
-  ███╔╝  ██║██╔══██║██║  ██║     applied AI · robots · algorithms
- ███████╗██║██║  ██║██████╔╝     Grade 12 · Giza, Egypt
- ╚══════╝╚═╝╚═╝  ╚═╝╚═════╝      ISEF finalist · ACPC Top 31
-```
+# Ziad Emad Salem
 
-[![Portfolio](https://img.shields.io/badge/portfolio-open-3fb950?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-2kkf.vercel.app/)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--7460--1592-a6ce39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-7460-1592)
+**Applied AI & Machine Learning · Computer Vision · Robotics & Embedded Systems · Competitive Programming**
+
+STEM High School Senior (6th of October, Egypt) · ACPC Top 31 National Finalist · ISEF Egypt Finalist · NASA Space Apps Galactic Problem Solver
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-0B1220?style=for-the-badge)](https://portfolio-2kkf.vercel.app/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--7460--1592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-7460-1592)
+[![Location](https://img.shields.io/badge/Location-Egypt-1E293B?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-### `$ dmesg | tail` — what I'm made of
+### Overview
 
-```text
-[    0.001] curiosity        loaded      (no unload routine found)
-[    0.042] python 3.12      ready       pytorch · opencv · mediapipe · fastapi
-[    0.077] c++              ready       competitive programming, embedded
-[    0.103] esp32-cam        attached    /dev/rover0, streaming
-[    0.150] bio-signal       calibrated  sEMG + VOC arrays, plants as sensors
-[    0.201] school           STEM 6th of October, 98% entry score, rank 245 nationally
-[    0.256] goal             B.Sc. + research in AI & Computer Engineering
-[    0.300] mood             compiling
-```
+I build systems that bridge **machine learning, physical hardware, and algorithmic problem solving**—from plant bio-signal and vision pipelines to wireless inspection rovers, real-time AI agents, and standalone software.
+
+- **AI, Vision & Bio-Signals:** Deep learning models (1D/2D CNNs), real-time object detection (`RF-DETR`, `SuperVision`, `OpenCV`, `MediaPipe`), and sensor/electrophysiology pipelines.
+- **Robotics & Embedded Systems:** `ESP32` / `ESP32-CAM`, `Arduino`, `Raspberry Pi`, motor control, multi-sensor telemetry, power distribution, and wireless control interfaces.
+- **Systems, Agents & Algorithms:** `Python`, `C++`, `FastAPI`, `LangChain`, `n8n`, `LiveKit Cloud`, `Pygame`, and competitive programming (`Fenwick Trees`, `Sparse Tables`, `Prefix Sums`, `Graphs`, `Trees`, `DP`).
 
 ---
 
-### `$ cd projects/` — click a folder
+### Selected Work
 
-<details>
-<summary><b>📁 aether/</b> &nbsp;·&nbsp; plants that raise their own alarm &nbsp;·&nbsp; <i>ISEF Egypt National Finalist</i></summary>
-
-<br/>
-
-A crop under attack changes its electrical signature and its scent before a human can see anything. **AETHER ("The Pytho Sentry")** reads both, then lets deep learning decide whether the plant is fine or in trouble. I was the AI-modeling director and lead developer.
-
-```text
- plant ──► sEMG electrodes ─┐
-                            ├─► 1D CNN  ─┐
- leaf  ──► VOC sensor array ┤            ├─► fuse ─► [ HEALTHY | STRESSED | PEST ]
-                            └─► 2D CNN  ─┘
-
- healthy   ▁▁▂▂▁▁▂▃▂▁▁▂▂▁▁▂▂▁▁▂▁▁▂▂▁▁
- stressed  ▁▂▅█▇▃▁▂▆█▅▂▁▃▇█▆▂▁▂▅█▇▃▁▂
-                ▲ alarm
-```
-
-`PyTorch` `1D/2D CNN` `Bio-signal processing` `Sensor fusion`
-
-</details>
-
-<details>
-<summary><b>📁 pipe-rover/</b> &nbsp;·&nbsp; six wheels, one camera, zero humans in the pipe</summary>
-
-<br/>
-
-A compact 6WD robot that drives into pipelines too tight or too dangerous for people, streams live video, and sniffs for gas. Driven from a wireless web UI.
-
-```text
-    ┌─────────────────────────┐
- ◉═╡ ESP32-CAM  ◉  live feed  ╞═◉
- ◉═╡ MQ-2 gas   ░░░░  HC-SR04 ╞═◉
- ◉═╡ L298N ▓▓▓▓▓▓▓▓ L298N     ╞═◉
-    │ 18650 ███ SG90 pan/tilt │
-    └─────────────────────────┘
-```
-
-`ESP32-CAM` `2× L298N` `MQ-2` `HC-SR04` `SG90 pan/tilt` `18650 power` `web control UI`
-
-</details>
-
-<details>
-<summary><b>📁 dark-night/</b> &nbsp;·&nbsp; a Halloween platformer with my own physics</summary>
-
-<br/>
-
-Pure Python and Pygame, no engine. Custom physics, and packaged as standalone builds for Windows, Linux and macOS.
-
-```text
-                     ,-.            *        .
-        .           ( ☾ )     .          *
-              *      `-'          .
-   .                                  .        ☠
-              🎃            ▄▄▄▄▄▄▄▄          ▄▄▄▄
-   ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄          ▀▀▀▀▀▀▀▀      ▄▄▄▀▀▀▀▀
-```
-
-`Python` `Pygame` `custom physics` `cross-platform builds`
-
-</details>
-
-<details>
-<summary><b>📁 realtime-vision/</b> &nbsp;·&nbsp; webcam detection and AI agents</summary>
-
-<br/>
-
-Optimizing live webcam object detection with **RF-DETR + Supervision**, and wiring agent workflows and bots with LangChain, FastAPI, n8n, LiveKit Cloud and the Telegram API.
-
-`RF-DETR` `Supervision` `LangChain` `n8n` `LiveKit` `OpenRouter`
-
-</details>
+| Project | Domain | Summary |
+| :--- | :--- | :--- |
+| **Project AETHER ("The Pytho Sentry")** | Agricultural AI & Bio-Signals | Early crop pest and stress detection combining plant electrophysiology (sEMG), VOC sensor arrays, and 1D/2D CNNs. *ISEF Egypt National Finalist.* |
+| **6WD Wireless Pipe Inspection Rover** | Robotics & Embedded | Six-wheeled confined-space inspection rover with `ESP32-CAM` live video, dual `L298N` drivers, `MQ-2` & ultrasonic sensors, pan/tilt servo, `18650` power system, and web control. |
+| **The Dark Night** | Game Engineering & Desktop | Halloween-themed 2D action-platformer built from scratch in `Python` and `Pygame` with custom physics and cross-platform builds. |
+| **Real-Time Vision & AI Workflows** | Computer Vision & Backend | Low-latency local object detection with `RF-DETR` + `SuperVision`, paired with agentic/automation pipelines in `FastAPI`, `LangChain`, `n8n`, and `LiveKit Cloud`. |
 
 ---
 
-### `$ cat fenwick.cpp` — how my head works in contests
-
-```cpp
-// prefix sums that can change: O(log n) update, O(log n) query
-struct Fenwick {
-    int n; vector<long long> t;
-    Fenwick(int n) : n(n), t(n + 1, 0) {}
-    void add(int i, long long v) { for (; i <= n; i += i & -i) t[i] += v; }
-    long long sum(int i) { long long s = 0; for (; i > 0; i -= i & -i) s += t[i]; return s; }
-};
-// also in my toolbox: sparse tables, prefix sums, graphs, trees, DP
-```
-
----
-
-### `$ ./trophies --verbose`
-
-```diff
-+ [✔] ISEF Egypt ............. National Finalist, Project AETHER
-+ [✔] ACPC ................... Africa & Arab Collegiate Programming Championship, Top 31
-+ [✔] NASA Space Apps Giza ... "Galactic Problem Solver"
-+ [✔] The Earth Prize ........ global participant, sustainable engineering proposal
-```
-
-<details>
-<summary><b>$ whoami --leadership</b></summary>
-
-<br/>
-
-| Role | Where |
-|---|---|
-| Head of Machine Learning & IT | Model Arab League: wrote the curriculum, ran the Python, data structures and ML-roadmap workshops |
-| President | High School Aviation & Aerospace Club |
-| Team Leader | Resala STEM Volunteering Team |
-| Member | Hack Club, logging build hours with Hackatime |
-
-</details>
-
-<details>
-<summary><b>$ pip freeze</b></summary>
-
-<br/>
+### Stack
 
 ```text
-languages      Python 3.12 · C++ · C/Arduino · HTML/CSS/JS · Markdown
-ml / cv        PyTorch · scikit-learn · OpenCV · MediaPipe · RF-DETR · Supervision
-data           NumPy · Pandas · Matplotlib · Seaborn
-backend/agents FastAPI · LangChain · n8n · LiveKit Cloud · OpenRouter API
-hardware       ESP32 / ESP32-CAM · Arduino Uno · Raspberry Pi · relays · motor drivers · power mgmt
-apps           Pygame · Tkinter
-workflow       Linux · Windows · Git & GitHub
-```
-
-</details>
-
-<details>
-<summary><b>$ git log --stat</b></summary>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=ziad-emad-salem&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=3fb950&icon_color=58a6ff&text_color=c9d1d9" alt="github stats" />
-
-</details>
-
----
-
-<div align="center">
-
-```text
-$ ./contact.sh
-> open to research, internships and building real AI systems
-> portfolio : portfolio-2kkf.vercel.app
-> orcid     : 0009-0001-7460-1592
-$ echo "the best model is the next one you train"
-the best model is the next one you train
-$ _
-```
-
-</div>
+Languages      Python (3.12) · C++ · C / Arduino · HTML / CSS / JS · Markdown
+AI & Vision    PyTorch · Scikit-Learn · OpenCV · MediaPipe · RF-DETR · SuperVision
+Data & Viz     NumPy · Pandas · Matplotlib · Seaborn
+Backend & AI   FastAPI · LangChain · n8n · LiveKit Cloud · OpenRouter API
+Hardware       ESP32 / ESP32-CAM · Arduino Uno · Raspberry Pi · Sensors & Motor Drivers
+Algorithms     Fenwick Trees · Sparse Tables · Prefix Sums · Graphs · Trees · DP
+Desktop & Env  Pygame · Tkinter · Linux · Windows · Git & GitHub
