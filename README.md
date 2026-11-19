@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://portfolio-2kkf.vercel.app/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2600&pause=900&color=3FB950&center=true&vCenter=true&width=760&height=40&lines=%24+boot+ziad.os+--grade%3D12;%5B+OK+%5D+plants+can+talk.+I+built+the+decoder.;%5B+OK+%5D+pipes+are+scary.+I+built+the+robot.;%5B+OK+%5D+O(log+n)+or+it+didn't+happen.;%24+_" alt="boot sequence" /></a>
+<img src="./assets/banner.gif" alt="Ziad: pixel-art scene of a rover scanning a stressed plant" width="100%" />
 
 ```text
  ███████╗██╗ █████╗ ██████╗
