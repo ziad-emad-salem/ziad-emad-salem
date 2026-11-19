@@ -10,7 +10,7 @@ STEM High School Senior (6th of October, Egypt) · ACPC Top 31 National Finalist
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-0B1220?style=for-the-badge)](https://portfolio-2kkf.vercel.app/)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--7460--1592-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-7460-1592)
-[![Hackatime](https://img.shields.io/badge/Hackatime-329h%2038m-EC3750?style=for-the-badge&logo=hackclub&logoColor=white)](https://hackatime.hackclub.com/@MIZOCR7)
+[![Hackatime](https://img.shields.io/badge/Hackatime-@MIZOCR7-EC3750?style=for-the-badge&logo=hackclub&logoColor=white)](https://hackatime.hackclub.com/@MIZOCR7)
 
 </div>
 
@@ -37,22 +37,10 @@ I build systems that bridge **machine learning, physical hardware, and algorithm
 
 ---
 
-### Hackatime Telemetry (`329h 38m` Total Logged)
+### Coding & Engineering Activity
 
-- **Top Language:** `Python` · **Top Editor:** `VS Code` · **Top OS:** `Windows` · **Category:** `Coding`
-
-| Tracked Project | Logged Time | Category |
-| :--- | :---: | :--- |
-| **Pokemon Game** | `35h 32m` | Game Dev |
-| **Pairate Game** | `24h 27m` | Game Dev |
-| **Pydew Valley** | `23h 04m` | Game Dev |
-| **ATHENA** | `21h 20m` | AI / Software |
-| **Ninja Game** | `20h 21m` | Game Dev |
-| **Samurai Game** | `18h 11m` | Game Dev |
-| **Dark Night** | `17h 46m` | Game Dev |
-| **Shooter Game** | `15h 16m` | Game Dev |
-| **Jarvis** | `14h 00m` | AI / Assistant |
-| **Monkey Defeater** | `08h 27m` | Game Dev |
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
