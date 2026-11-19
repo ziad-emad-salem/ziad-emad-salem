@@ -1,0 +1,27 @@
+name: Update README with WakaTime & Dev Stats
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Runs every 12 hours
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update Dev Metrics
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run waka-readme-stats
+        uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          COMMIT_BY_ME: "True"
+          COMMIT_MESSAGE: "chore: update dev metrics"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_UPDATED_DATE: "True"
